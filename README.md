@@ -99,3 +99,5 @@
    * Normality
 * The resulting regression shows that log of home square feet is correlated with log of home price
 * The R squared value is 0.533, which means that the single variable regression explains 53% of the variance in log of home prices
+## Multi Variable Regression
+* Coming soon!
