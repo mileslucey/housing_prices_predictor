@@ -68,3 +68,34 @@
    * "MoSold"
    * "OverallCond"
    * "OverallQual"
+## Data Exploration
+* The data exploration revealed that many quantitative variables are right skewed
+* The following variables should be logarithmically transformed in order to approximate normality:
+   * SalePrice
+   * GrLivArea
+   * 1stFlrSF
+   * TotalBsmtSF
+* The following variables should be transformed using square root in order to approximate normality:
+   * 2ndFlrSF
+* The following variables should be transformed using cube root in order to approximate normality:
+   * LotFrontage
+   * MasVnrArea
+* The following numerical variables are highly correlated with log of SalePrice (the dependent variable):
+   * log(GrLivArea)
+   * log(1stFlrSF)
+   * sqrt(2ndFlrSF)
+   * log(TotalBsmtSF)
+* The following categorical variables seem to show a clear relationship with log of SalePrice (the dependent variable):
+   * Neighborhood
+   * OverallQual
+   * ExterQual
+## Single Variable Regression
+* The following regression is attempted:
+   * log(SalePrice) = Constant + log(GrLivArea)
+* The following assumptions are confirmed for the variables post-transformation:
+   * Linearity
+   * Mean of residuals = 0 
+   * Homoscedasticity
+   * Normality
+* The resulting regression shows that log of home square feet is correlated with log of home price
+* The R squared value is 0.533, which means that the single variable regression explains 53% of the variance in log of home prices
