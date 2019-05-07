@@ -52,11 +52,11 @@
       * "MiscFeature"
       * "MiscVal"
 * N/As for the following columns are filled with the word 0s. This is because this feature doesn't exist for some of the observations so 0 makes the most sense. For example, houses that don't have basements should have 0 square feet for basement:
-      * "MasVnrArea"
-      * "BsmtFinSF1"
-      * "BsmtFinSF2"
-      * "TotalBsmtSF"
-      * "BsmtUnfSF"
+         * "MasVnrArea"
+         * "BsmtFinSF1"
+         * "BsmtFinSF2"
+         * "TotalBsmtSF"
+         * "BsmtUnfSF"
 * N/As for the following columns are filled with the mode for each neighborhood. These are usually categories that are dominated by one particular result
       * "Electrical"
 * The following variables are transitioned from integers to strings because they are being used as categorical variables (to be turned into dummy variables) in our study
