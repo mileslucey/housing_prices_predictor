@@ -32,7 +32,7 @@
 * Create a predictive model that estimates housing prices in Ames Iowa
 ## Data Cleaning
 * N/As for the following columns are filled with the median values for each neighborhood:
-         * LotFrontage
+      * LotFrontage
 * N/As for the following columns are filled with the word "None". This is because this feature doesn't exist for some of the observations:
       * Alley
       * "MasVnrType"
