@@ -4,7 +4,9 @@
 * Miles Lucey
 ## Data Source
 * A housing dataset found on Kaggle: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
-* The dataset contains the following information:
+* Training dataset includes 1460 observations and 81 metrics (including home sale price)
+* Testing dataset includes 1459 observations and 80 metrics (does not have a home sale price column)  
+* The datasets contain the following information:
     * Address
     * Utilities
     * Lot configuration (corner lot, kuldesak, etc.)
@@ -21,6 +23,8 @@
     * Pool (whether or not property has one)
     * When property was sold
     * Sale price
+* In order to evaluate the effectiveness of statistical models, the "training" dataset is divided into 80% training and 20% testing in order to check the work
+* The most effective model will be used on the "testing" dataset for all 1459 observations to predict missing home prices and submitted to Kaggle
 ## Tools Used
 * Python:
     * Pandas
