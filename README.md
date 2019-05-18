@@ -1,6 +1,6 @@
 # Housing Prices Predictor
 * See published presentation/dashboard here:
-   * https://public.tableau.com/profile/miles.lucey#!/vizhome/home_prices_predictor/HomePricePrediction?publish=yes
+https://public.tableau.com/profile/miles.lucey#!/vizhome/home_prices_predictor/HomePricePrediction?publish=yes
 ![](04-images/01.PNG)
 ![](04-images/02.PNG)
 ![](04-images/03.PNG)
