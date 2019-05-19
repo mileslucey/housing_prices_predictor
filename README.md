@@ -8,7 +8,7 @@
 * The [06-random_forest.ipynb](https://github.com/mileslucey/housing_prices_predictor/blob/master/06-random_forest.ipynb) Jupyter Notebook produces a random forest regression to model home prices
 ## Final Product
 * See published presentation/dashboard [here](https://public.tableau.com/profile/miles.lucey#!/vizhome/home_prices_predictor/HomePricePrediction?publish=yes)
-* The project findings are summarized in the slides below:
+* Findings are summarized in the slides below:
 ![](04-images/01.PNG)
 ![](04-images/02.PNG)
 ![](04-images/03.PNG)
