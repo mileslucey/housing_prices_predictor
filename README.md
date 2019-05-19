@@ -7,7 +7,7 @@
 * The [05-multiple_variable_regression.ipynb](https://github.com/mileslucey/housing_prices_predictor/blob/master/05-multiple_variable_regression.ipynb) Jupyter Notebook produces a multiple variable linear regression model that demonstrates the relationship between housing prices and home square feet, home quality, exterior material quality, kitchen quality, garage size, number of bathrooms, number of bedrooms, home age, and neighborhood 
 * The [06-random_forest.ipynb](https://github.com/mileslucey/housing_prices_predictor/blob/master/06-random_forest.ipynb) Jupyter Notebook produces a random forest regression to model home prices
 ## Final Product
-* See published presentation/dashboard [here](https://public.tableau.com/profile/miles.lucey#!/vizhome/home_prices_predictor/HomePricePrediction?publish=yes)
+* See published presentation/dashboard that details the analysis [here](https://public.tableau.com/profile/miles.lucey#!/vizhome/home_prices_predictor/HomePricePrediction?publish=yes)
 * Findings are summarized in the slides below:
 ![](04-images/01.PNG)
 ![](04-images/02.PNG)
